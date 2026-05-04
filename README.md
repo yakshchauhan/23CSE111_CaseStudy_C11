@@ -35,3 +35,4 @@ This system provides an automated solution to streamline communication between s
 2. **Compile:** Run the following command in your terminal:
    ```bash
    javac oopsproject/*.java
+3. **Run:** java oopsproject.Main

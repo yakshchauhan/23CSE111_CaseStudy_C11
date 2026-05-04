@@ -36,3 +36,31 @@ This system provides an automated solution to streamline communication between s
    ```bash
    javac oopsproject/*.java
 3. **Run:** java oopsproject.Main
+
+## Sample Input / Output
+Use the Warden login (Option 2) first to register students and allocate rooms before logging in as a Student.
+
+Warden Login: Enter choice 2 → Password: warden123.
+
+Registration: Input Student ID 101 and Name Alice.
+
+Room Status: Option 3 displays Room No: 1 | Occupied: true.
+
+Complaint Filing: Student enters description: Water leakage in bathroom.
+
+Fee Status: Displays Name: Alice | Fee paid: 5000.
+
+Persistence: All data is saved to students.txt and complaints.txt automatically.
+
+🛠️ 6. Tools / Technologies Used
+Language: Java (JDK 8+)
+
+Core Concepts: OOP (Inheritance, Abstraction, Polymorphism, Encapsulation)
+
+Collections: ArrayList for dynamic memory management.
+
+Persistence: FileWriter & BufferedReader for file-based storage.
+
+IO: Scanner for terminal-based user interaction.
+
+Safety: try-catch blocks for robust error handling.
